@@ -81,7 +81,7 @@ export const Projects = () => {
               <ProjectCard
                 img={imgs[7]}
                 title="Band Kamp"
-                link="https://github.com/nathanrib13/m5-bandkamp-generic-view-nathanrib"
+                link="https://dashboard.render.com/web/srv-ch7eqpg2qv26p1cnveng"
                 tech="Python - Django - PostgreSQL"
               />
             </>

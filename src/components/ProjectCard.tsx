@@ -14,7 +14,7 @@ export const ProjectCard: any = ({ img, title, link, tech }: any) => {
         </h2>
 
         <p className="pb-4 text-black bold text-center">{tech}</p>
-        <a href={link}>
+        <a href={link} target="_blank">
           <p className="text-center p-3 rounded-lg bg-[#f17b21] text-white font-bold cursor-pointer text-lg  hover:animate-pulse">
             More Info
           </p>

@@ -36,7 +36,7 @@ export const Main = () => {
             <a href="https://instagram.com/nathanrib13" target="_blank">
               <FaInstagram className="cursor-pointer c-yellow" size={20} />
             </a>
-            <a href="https://twitter.com/nribeiro13" target="_blank">
+            <a href="https://twitter.com/nribeiro13_" target="_blank">
               <FaTwitter className="cursor-pointer" size={20} />
             </a>
             <a href="https://www.linkedin.com/in/nathanrib13/" target="_blank">

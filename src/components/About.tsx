@@ -79,120 +79,118 @@ export const About = () => {
           {showMore ? "Hidden" : "Show more"}
         </button>
 
-        <h2 className="sm:text-4xl text-4xl font-bold  text-center text-[#119194]">
-          MY SKILLS
-        </h2>
+        <h2 className="text-3xl font-bold  text-left text-black">MY SKILLS</h2>
         <div className="grid sm:grid-cols-3 gap-16 py-16">
           <div className="flex items-center gap-4 ">
             <SiHtml5
-              className="cursor-pointer fill-current text-black hover:text-orange-500 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-orange-500 hover:scale-110 ease-in duration-200"
               size={60}
             />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[85%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2  ">
+              <div className=" animate-icons w-[85%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiCss3
-              className="cursor-pointer fill-current text-black hover:text-blue-500 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-blue-500 hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[85%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className="animate-icons  w-[85%] h-full rounded-[40px] bg-[#119194] ml-[0%]" />
             </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiJavascript
-              className="cursor-pointer fill-current text-black hover:text-yellow-500 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-yellow-500 hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[90%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className=" animate-icons w-[90%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiReact
-              className="cursor-pointer fill-current text-black hover:text-blue-500 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-blue-500 hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[65%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className=" animate-icons w-[65%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
 
           <div className="flex items-center gap-4 ">
             <FaNodeJs
-              className="cursor-pointer fill-current text-black hover:text-green-700 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-green-700 hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[75%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className=" animate-icons w-[75%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
 
           <div className="flex items-center gap-4 ">
             <SiTypescript
-              className="cursor-pointer fill-current text-black hover:text-blue-700 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-blue-700 hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[75%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className=" animate-icons w-[75%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
 
           <div className="flex items-center gap-4 ">
             <SiPostgresql
-              className="cursor-pointer fill-current text-black hover:text-[#3d5e76] hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-[#3d5e76] hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[60%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className=" animate-icons w-[60%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
 
           <div className="flex items-center gap-4 ">
             <SiGit
-              className="cursor-pointer fill-current text-black hover:text-[#f75f00cc] hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-[#f75f00cc] hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[80%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className=" animate-icons w-[80%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiPython
-              className="cursor-pointer fill-current text-black hover:text-yellow-500 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-yellow-500 hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[60%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className=" animate-icons w-[60%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiDjango
-              className="cursor-pointer fill-current text-black hover:text-green-800 hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-green-800 hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[45%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className="animate-icons w-[45%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiTailwindcss
-              className="cursor-pointer fill-current text-black hover:text-[#39d2b1] hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-[#39d2b1] hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[72%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className="animate-icons w-[72%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiPrisma
-              className="cursor-pointer fill-current text-black hover:text-white hover:scale-110 ease-in duration-200"
+              className="fill-current text-black hover:text-white hover:scale-110 ease-in duration-200"
               size={60}
             />
             <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="w-[45%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
+              <div className="animate-icons w-[45%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
             </div>
           </div>
         </div>
