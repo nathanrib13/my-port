@@ -19,11 +19,11 @@ export const Main = () => {
             I am{" "}
             <TypeAnimation
               sequence={[
-                " programmer",
+                "a programmer",
                 1000,
-                " full stack developer",
+                "a full stack developer",
                 2000,
-                " a tech lover",
+                "a tech lover",
                 2000,
               ]}
               wrapper="div"
@@ -32,18 +32,18 @@ export const Main = () => {
               style={{ fontSize: "1em", paddingLeft: "5px", color: "#f17b21" }}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
+          <div className="flex justify-between pt-10 max-w-[200px] w-full">
             <a href="https://instagram.com/nathanrib13" target="_blank">
-              <FaInstagram className="cursor-pointer c-yellow" size={20} />
+              <FaInstagram className="cursor-pointer c-yellow" size={28} />
             </a>
             <a href="https://twitter.com/nribeiro13_" target="_blank">
-              <FaTwitter className="cursor-pointer" size={20} />
+              <FaTwitter className="cursor-pointer" size={28} />
             </a>
             <a href="https://www.linkedin.com/in/nathanrib13/" target="_blank">
-              <FaLinkedin className="cursor-pointer" size={20} />
+              <FaLinkedin className="cursor-pointer" size={28} />
             </a>
             <a href="https://github.com/nathanrib13" target="_blank">
-              <FaGithub className="cursor-pointer" size={20} />
+              <FaGithub className="cursor-pointer" size={28} />
             </a>
           </div>
         </div>
