@@ -3,14 +3,14 @@ import { ProjectCard } from "./ProjectCard";
 import { Transition } from "react-transition-group";
 
 const imgs = [
-  "src/assets/find-my-duo.png",
-  "src/assets/imoveis-tyeporrm.png",
-  "src/assets/nukennzie-project.png",
-  "src/assets/movies-typeorm.png",
-  "src/assets/kenzie-hub-projject.png",
-  "src/assets/kennzie-burrguer-pprroject.png",
-  "src/assets/der.png",
-  "src/assets/band-kamp.png",
+  "https://i.imgur.com/X3OhbDg.png",
+  "https://i.imgur.com/LzjtlMw.png",
+  "https://i.imgur.com/RhSgw4w.png",
+  "https://i.imgur.com/cHAcghI.png",
+  "https://i.imgur.com/Wu6r1Hg.png",
+  "https://i.imgur.com/vlujrCO.png",
+  "https://i.imgur.com/rpn2W2c.png",
+  "https://i.imgur.com/d1nN9xE.png",
 ];
 
 export const Projects = () => {
@@ -21,7 +21,10 @@ export const Projects = () => {
   };
 
   return (
-    <div id="projects" className="  max-w-[1040px] m-auto md:pl-20 pl-4 py-16">
+    <div
+      id="projects"
+      className="  max-w-[1040px] m-auto md:pl-20 pl-4 pr-4 py-16"
+    >
       <h1 className="text-4xl font-bold text-center text-[#119194]">
         PROJECTS
       </h1>

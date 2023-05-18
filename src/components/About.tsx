@@ -13,7 +13,6 @@ import {
   SiPrisma,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { Transition } from "react-transition-group";
 
 export const About = () => {
   const [showMore, setshowMore] = useState(false);
@@ -28,7 +27,7 @@ export const About = () => {
         <h1 className="sm:text-4xl text-4xl font-bold  text-center text-[#119194]">
           ABOUT ME{" "}
         </h1>
-        <p className="text-justify mt-16 text-xl text-black text-white font-bold ">
+        <p className="text-justify mt-16 text-xl text-black font-bold ">
           I am 26 years old and have accumulated over 20 years of academic
           experience. Between 2016 and 2022, I studied Physical Education at
           UFRRJ, but I realized that I wasn't happy in the chosen field. So, I
@@ -50,7 +49,7 @@ export const About = () => {
         </p>
 
         {showMore ? (
-          <p className="text-justify text-xl text-black text-white font-bold transition-transforrm ease-in-out delay-150">
+          <p className="text-justify text-xl text-black font-bold transition-transforrm ease-in-out delay-150">
             <br />
             Following the completion of the first stage of the course, I began
             my studies in the back-end field and am about to graduate as a

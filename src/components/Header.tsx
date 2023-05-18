@@ -19,7 +19,7 @@ export const Header = () => {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className="fixed top-4 right-4 z-[99] md:hidden fill-white"
+        className="fixed top-4 right-4 z-[99] md:hidden fill-black"
       />
       {navBar ? (
         <div className="fixed w-full h-screen bg-black/90 flex flex-col justify-center items-center z-20">
