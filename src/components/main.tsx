@@ -32,13 +32,7 @@ export const Main = () => {
               style={{ fontSize: "1em", paddingLeft: "5px", color: "#f17b21" }}
             />
           </h2>
-          <div className="flex justify-between pt-10 max-w-[200px] w-full">
-            <a href="https://instagram.com/nathanrib13" target="_blank">
-              <FaInstagram className="cursor-pointer c-yellow" size={28} />
-            </a>
-            <a href="https://twitter.com/nribeiro13_" target="_blank">
-              <FaTwitter className="cursor-pointer" size={28} />
-            </a>
+          <div className="flex justify-between pt-10 max-w-[80px] w-full">
             <a href="https://www.linkedin.com/in/nathanrib13/" target="_blank">
               <FaLinkedin className="cursor-pointer" size={28} />
             </a>

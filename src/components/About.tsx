@@ -11,6 +11,10 @@ import {
   SiDjango,
   SiTailwindcss,
   SiPrisma,
+  SiNestjs,
+  SiNextdotjs,
+  SiStyledcomponents,
+  SiPhp,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 
@@ -80,118 +84,105 @@ export const About = () => {
         </button>
 
         <h2 className="text-3xl font-bold  text-left text-black">MY SKILLS</h2>
-        <div className="grid sm:grid-cols-3 gap-16 py-16">
+        <div className="grid sm:grid-cols-4 gap-16 py-16">
           <div className="flex items-center gap-4 ">
-            <SiHtml5
-              className="fill-current text-black hover:text-orange-500 hover:scale-110 ease-in duration-200"
+            <SiJavascript
+              className="fill-current text-yellow-500  hover:text-black hover:scale-110 ease-in duration-200"
               size={60}
             />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2  ">
-              <div className=" animate-icons w-[85%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
+          </div>
+          <div className="flex items-center gap-4 ">
+            <SiTypescript
+              className="fill-current text-blue-700 h  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+          <div className="flex items-center gap-4 ">
+            <FaNodeJs
+              className="fill-current text-green-700   hover:text-black hhover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+
+          <div className="flex items-center gap-4 ">
+            <SiReact
+              className="fill-current text-blue-500 h  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+
+          <div className="flex items-center gap-4 ">
+            <SiNestjs
+              className="fill-current text-red-500  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+          <div className="flex items-center gap-4 ">
+            <SiNextdotjs
+              className="fill-current text-[black-500]  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+          <div className="flex items-center gap-4 ">
+            <SiGit
+              className="fill-current text-[#f75f00cc]  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+          <div className="flex items-center gap-4 ">
+            <SiPostgresql
+              className="fill-current text-[#3d5e76]  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+          <div className="flex items-center gap-4 ">
+            <SiPhp
+              className="fill-current text-[#8993be]  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+          <div className="flex items-center gap-4 ">
+            <SiStyledcomponents
+              className="fill-current text-pink-500  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
+          </div>
+          <div className="flex items-center gap-4 ">
+            <SiHtml5
+              className="fill-current text-orange-500  hover:text-black hover:scale-110 ease-in duration-200"
+              size={60}
+            />
           </div>
           <div className="flex items-center gap-4 ">
             <SiCss3
-              className="fill-current text-black hover:text-blue-500 hover:scale-110 ease-in duration-200"
+              className="fill-current text-blue-500 h  hover:text-black hover:scale-110 ease-in duration-200"
               size={60}
             />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="animate-icons  w-[85%] h-full rounded-[40px] bg-[#119194] ml-[0%]" />
-            </div>
-          </div>
-          <div className="flex items-center gap-4 ">
-            <SiJavascript
-              className="fill-current text-black hover:text-yellow-500 hover:scale-110 ease-in duration-200"
-              size={60}
-            />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className=" animate-icons w-[90%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
-          </div>
-          <div className="flex items-center gap-4 ">
-            <SiReact
-              className="fill-current text-black hover:text-blue-500 hover:scale-110 ease-in duration-200"
-              size={60}
-            />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className=" animate-icons w-[65%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
           </div>
 
-          <div className="flex items-center gap-4 ">
-            <FaNodeJs
-              className="fill-current text-black hover:text-green-700 hover:scale-110 ease-in duration-200"
-              size={60}
-            />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className=" animate-icons w-[75%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
-          </div>
-
-          <div className="flex items-center gap-4 ">
-            <SiTypescript
-              className="fill-current text-black hover:text-blue-700 hover:scale-110 ease-in duration-200"
-              size={60}
-            />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className=" animate-icons w-[75%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
-          </div>
-
-          <div className="flex items-center gap-4 ">
-            <SiPostgresql
-              className="fill-current text-black hover:text-[#3d5e76] hover:scale-110 ease-in duration-200"
-              size={60}
-            />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className=" animate-icons w-[60%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
-          </div>
-
-          <div className="flex items-center gap-4 ">
-            <SiGit
-              className="fill-current text-black hover:text-[#f75f00cc] hover:scale-110 ease-in duration-200"
-              size={60}
-            />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className=" animate-icons w-[80%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
-          </div>
           <div className="flex items-center gap-4 ">
             <SiPython
-              className="fill-current text-black hover:text-yellow-500 hover:scale-110 ease-in duration-200"
+              className="fill-current text-yellow-500 hover:text-black hover:scale-110 ease-in duration-200"
               size={60}
             />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className=" animate-icons w-[60%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiDjango
-              className="fill-current text-black hover:text-green-800 hover:scale-110 ease-in duration-200"
+              className="fill-current text-green-800 hover:text-black hover:scale-110 ease-in duration-200"
               size={60}
             />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="animate-icons w-[45%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiTailwindcss
-              className="fill-current text-black hover:text-[#39d2b1] hover:scale-110 ease-in duration-200"
+              className="fill-current text-[#39d2b1]  hover: hover:scale-110 ease-in duration-200"
               size={60}
             />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="animate-icons w-[72%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
           </div>
           <div className="flex items-center gap-4 ">
             <SiPrisma
               className="fill-current text-black hover:text-white hover:scale-110 ease-in duration-200"
               size={60}
             />
-            <div className="w-[80%] h-[20%] rounded-[40px] bg-[#f17b21] b border-2 ">
-              <div className="animate-icons w-[45%] h-full rounded-[40px] bg-[#119194] ml-[0%] " />
-            </div>
           </div>
         </div>
       </div>
