@@ -9,8 +9,8 @@ const imgs = [
   "https://i.imgur.com/cHAcghI.png",
   "https://i.imgur.com/Wu6r1Hg.png",
   "https://i.imgur.com/vlujrCO.png",
-  "https://i.imgur.com/rpn2W2c.png",
-  "https://i.imgur.com/d1nN9xE.png",
+  "https://i.imgur.com/aIqMerg.png",
+  "https://i.imgur.com/b1Cg9Is.png",
 ];
 
 export const Projects = () => {
@@ -31,30 +31,29 @@ export const Projects = () => {
 
       <div className="grid sm:grid-cols-2 gap-12 py-24">
         <ProjectCard
+          img={imgs[6]}
+          title="Motor Shop"
+          link="https://motorshop-app.vercel.app/"
+          tech="Nest - Next - Prisma - Tailwind"
+        />
+        <ProjectCard
           img={imgs[0]}
           title="Find My Duo"
           link="https://projeto-findmyduo-six.vercel.app/"
           tech="React - TypeScript - Firebase"
         />
         <ProjectCard
+          img={imgs[7]}
+          title="Contact List"
+          link="https://github.com/nathanrib13/contacts-list"
+          tech="React - TypeORM - Express"
+        />
+
+        <ProjectCard
           img={imgs[1]}
           title="Imobiliaria"
           link="https://github.com/Kenzie-Academy-Brasil-Developers/m4-sp6-kimoveis-final"
           tech="Node - TypeScript - TypeORM"
-        />
-
-        <ProjectCard
-          img={imgs[3]}
-          title="Movies"
-          link="https://github.com/Kenzie-Academy-Brasil-Developers/m4-sp5-movies-typeorm-nathanrib"
-          tech="Node - TypeScript - TypeORM"
-        />
-
-        <ProjectCard
-          img={imgs[2]}
-          title="Nu Kenzie"
-          link="https://projeto-nukenzie-two.vercel.app/"
-          tech="React - TypeScript"
         />
 
         {showMoreProjects ? (
@@ -73,17 +72,29 @@ export const Projects = () => {
                 tech="React - TypeScript - TypeORM"
               />
               <ProjectCard
+                img={imgs[2]}
+                title="Nu Kenzie"
+                link="https://projeto-nukenzie-two.vercel.app/"
+                tech="React - TypeScript"
+              />
+              <ProjectCard
+                img={imgs[3]}
+                title="Movies"
+                link="https://github.com/Kenzie-Academy-Brasil-Developers/m4-sp5-movies-typeorm-nathanrib"
+                tech="Node - TypeScript - TypeORM"
+              />
+              {/* <ProjectCard
                 img={imgs[6]}
                 title="Ecommerce"
                 link=""
                 tech="Python - Django - PostgreSQL"
-              />
-              <ProjectCard
+              /> */}
+              {/* <ProjectCard
                 img={imgs[7]}
                 title="Band Kamp"
                 link="https://dashboard.render.com/web/srv-ch7eqpg2qv26p1cnveng"
                 tech="Python - Django - PostgreSQL"
-              />
+              /> */}
             </>
           </Transition>
         ) : (

@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { GrDocumentText } from "react-icons/gr";
 
 export const Main = () => {
   return (
@@ -32,13 +33,20 @@ export const Main = () => {
               style={{ fontSize: "1em", paddingLeft: "5px", color: "#f17b21" }}
             />
           </h2>
-          <div className="flex justify-between pt-10 max-w-[80px] w-full">
+          <div className="flex gap-4 pt-10 max-w-[280px] w-full text-center">
             <a href="https://www.linkedin.com/in/nathanrib13/" target="_blank">
               <FaLinkedin className="cursor-pointer" size={28} />
             </a>
             <a href="https://github.com/nathanrib13" target="_blank">
               <FaGithub className="cursor-pointer" size={28} />
             </a>
+            <a
+              href="https://drive.google.com/file/d/1ENMl6Tk2-7tCoLo-q9OE1mWpvslYJKFq/view"
+              target="_blank"
+            >
+              <GrDocumentText className="cursor-pointer" size={28} />
+            </a>
+            <p className="w-96 ml-[-30px] text-[16px]">Acesse meu curriculo</p>
           </div>
         </div>
       </div>
