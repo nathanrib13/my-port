@@ -40,13 +40,18 @@ export const Main = () => {
             <a href="https://github.com/nathanrib13" target="_blank">
               <FaGithub className="cursor-pointer" size={28} />
             </a>
-            <a
-              href="https://drive.google.com/file/d/1ENMl6Tk2-7tCoLo-q9OE1mWpvslYJKFq/view"
-              target="_blank"
-            >
-              <GrDocumentText className="cursor-pointer" size={28} />
-            </a>
-            <p className="w-96 ml-[-30px] text-[16px]">Acesse meu curriculo</p>
+            <div className="relative">
+              <a
+                href="https://drive.google.com/file/d/1uzeK1IKbC0jgR61zhTt3f2hSwLtzxpqa/view?usp=sharing"
+                target="_blank"
+                className="hover:text-white"
+              >
+                <GrDocumentText className="cursor-pointer" size={28} />
+                <div className="absolute bottom-0 left-0 transform translate-x-1/2 -translate-y-full bg-gray-800 text-white text-center px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  Meu currículo
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
